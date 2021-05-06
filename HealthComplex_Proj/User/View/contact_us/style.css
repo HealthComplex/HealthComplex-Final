@@ -1,0 +1,102 @@
+/* Register CSS */
+
+@font-face {
+    font-family: belleza;
+    src: url(../fonts/belleza/Belleza-Regular.ttf);
+}
+
+.roboto {
+    font-family: Roboto;
+}
+
+.comic {
+    font-family: Comic Sans MS;
+}
+
+.belleza {
+    font-family: belleza;
+}
+
+.verdana {
+    font-family: Verdana, Geneva, sans-serif
+}
+
+.aboutUsContainer {
+    width: 60%;
+    height: auto;
+    margin-right: 20%;
+    margin-left: 20%;
+    background: #ffffff;
+    top: 100px;
+    opacity: 0.922;
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    min-height: 100%;
+}
+
+.backgroundImage {
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    background-image: url("./images/siose_pol_background.jpg");
+    background-size: 100% 100%;
+    opacity: 0.7;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.horizontalRule {
+    width: 80%;
+    border-width: 3px;
+    text-align: center;
+}
+
+.aboutUsContainer {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 2px solid #ffffff;
+}
+
+.aboutTitle {
+    width: 100%;
+    text-align: center;
+    padding-right: 8%;
+    padding-left: 8%;
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+.aboutBody {
+    padding-right: 8%;
+    padding-left: 8%;
+    padding-top: 30px;
+    font-size: 18px;
+    line-height: 1.65;
+}
+
+.contactContainer {
+    /*background-color: #F0F8FF;*/
+    padding-top: 38px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+}
+
+.contactWaysContainer {
+    padding-top: 4px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1300px) {
+    .aboutUsContainer {
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
